@@ -19,7 +19,7 @@ Este repositorio contiene el desarrollo de la tercera práctica de Visión por C
   - Se desarrolló un mecanismo de calibración interactiva por eventos de ratón (`cv2.setMouseCallback`) para establecer el factor de escala dinámico en px/mm a partir del diámetro de una moneda de referencia seleccionada por el usuario.
   - Análisis del espacio de color HSV mediante la media y desviación estándar (`cv2.meanStdDev`) para discriminar materiales físicos (plata, cobre/bronce, oro y monedas bicolores de 1€ y 2€).
 - **Resultado:**
-  ![Detector de Monedas](Monedas.jpg)
+  ![Detector de Monedas](Detector_monedas.png)
 
 ---
 
@@ -30,7 +30,7 @@ Este repositorio contiene el desarrollo de la tercera práctica de Visión por C
   - Aplicación de umbral adaptativo (`cv2.adaptiveThreshold`) combinado con operaciones morfológicas para mejorar la detección de fragmentos blancos sobre fondos complejos.
   - Filtrado por propiedades geométricas (área, perímetro y circularidad) y eliminación de contornos duplicados mediante el seguimiento de centroides.
 - **Resultado:**
-  ![Detección de Microplásticos](PEL.png)
+  ![Detección de Microplásticos](Microplásticos.png)
 
 ---
 
@@ -41,7 +41,7 @@ Este repositorio contiene el desarrollo de la tercera práctica de Visión por C
   - Categorización de aciertos, falsos positivos ("Fondo") y falsos negativos ("No Detectado").
   - Cálculo de métricas de rendimiento globales (Accuracy, Precision, Recall y F1-Score ponderados) utilizando `scikit-learn` y representación visual mediante una matriz de confusión personalizada.
 - **Resultado:**
-  ![Matriz de Confusión](MatrizConfu.png)
+  ![Matriz de Confusión](Matriz_confusión.png)
 
 ---
 
